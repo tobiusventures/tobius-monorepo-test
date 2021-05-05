@@ -2,7 +2,8 @@
   "environments": {
     "review": {
       "buildpacks": [
-        { "url": "https://github.com/tobiusventures/tobius-buildpack-monorepo.git#main" }
+        { "url": "https://github.com/tobiusventures/tobius-buildpack-monorepo.git#main" },
+        { "url": "heroku/nodejs" }
       ],
       "env": {
         "APP_PATH": "apis/core"
