@@ -3,8 +3,12 @@
     { "url": "https://github.com/tobiusventures/tobius-buildpack-monorepo.git#main" },
     { "url": "heroku/nodejs" }
   ],
-  "env": {
-    "APP_PATH": "apis/core"
+  "environments": {
+    "review": {
+      "env": {
+        "APP_PATH": "apis/core"
+      }
+    }
   },
   "name": "tobius-monorepo-api-test",
   "scripts": {}
