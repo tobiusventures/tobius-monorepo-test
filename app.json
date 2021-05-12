@@ -1,0 +1,12 @@
+{
+  "name": "",
+  "repository": "https://github.com/tobiusventures/tobius-monorepo-test",
+  "env": {
+    "APP_PATH": {
+      "required": true
+    }
+  },
+  "buildpacks": [
+    { "url": "https://github.com/tobiusventures/tobius-buildpack-monorepo.git#main" }
+  ]
+}
